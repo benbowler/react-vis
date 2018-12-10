@@ -60,8 +60,8 @@ export default class Example extends React.Component {
           <HorizontalGridLines />
           <XAxis />
           <YAxis />
-          <BarSeries className="vertical-bar-series-example" data={greenData} />
-          <BarSeries data={blueData} />
+          <VerticalBarSeries className="vertical-bar-series-example" data={greenData} />
+          <VerticalBarSeries data={blueData} />
           <LabelSeries data={labelData} getLabel={d => d.x} />
         </XYPlot>
       </div>
